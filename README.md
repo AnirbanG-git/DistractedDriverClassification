@@ -1,5 +1,4 @@
-# Project Name
-**Distracted Driver MultiAction Classification**
+# Distracted Driver MultiAction Classification
 
 ## Table of Contents
 * [General Information](#general-information)
