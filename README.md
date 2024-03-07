@@ -30,7 +30,7 @@ To develop a model capable of accurately classifying driver behaviors from image
 
 ### Methodology
 1. Data was organized into training and test directories, with images categorized into subdirectories based on their respective classes.
-3. Preprocessing involved creating a validation directory by transferring 20% of images from each class to corresponding subdirectories under the validation directory, ensuring balanced representation for model training and validation.
+3. Preprocessing involved creating a validation directory by transferring 20% of images from each class to corresponding subdirectories under the validation directory, ensuring balanced representation for model training and validation. This step was executed in a different notebook `preprocessing.ipynb`, which is also a part of current repo.
 4. Exploratory Data Analysis (EDA) was conducted to understand the distribution of images across categories and subjects.
 5. A Convolutional Neural Network (CNN) model was developed using transfer learning from MobileNet.
 6. The model architecture included a GlobalAveragePooling2D layer followed by dense layers with ReLU activation and dropout regularization.
